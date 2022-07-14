@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/aem-react-error-challenge/clientlibs"/>
+    <filter root="/apps/aem-react-error-challenge/components"/>
+    <filter root="/apps/aem-react-error-challenge/i18n"/>
+</workspaceFilter>
