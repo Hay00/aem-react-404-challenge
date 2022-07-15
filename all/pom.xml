@@ -87,6 +87,14 @@
                             <artifactId>spa.project.core.ui.apps</artifactId>
                             <target>/apps/aem-react-error-challenge-vendor-packages/application/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>com.adobe.acs</groupId>
+                            <artifactId>acs-aem-commons-content</artifactId>
+                            <type>zip</type>
+                            <target>/apps/my-app-packages/container/install</target>
+                            <filter>true</filter>
+                            <isAllVersionsFilter>true</isAllVersionsFilter>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
@@ -204,6 +212,13 @@
             <groupId>com.adobe.aem.react.error.challenge</groupId>
             <artifactId>aem-react-error-challenge.ui.config</artifactId>
             <version>${project.version}</version>
+            <type>zip</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.adobe.acs</groupId>
+            <artifactId>acs-aem-commons-content</artifactId>
+            <version>5.3.2</version>
             <type>zip</type>
         </dependency>
 

@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 export const StyledText = styled.p`
-  margin: 20px 24px;
-
-  @media (min-width: 768px) {
-    margin: 40px 77px;
+  margin-bottom: 200px;
+  @media (max-width: 768px) {
+    margin-bottom: 64px;
   }
 
   font-family: 'Inconsolata';
